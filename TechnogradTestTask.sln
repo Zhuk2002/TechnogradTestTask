@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnogradTestTask", "TechnogradTestTask.csproj", "{074A1B34-A1D9-CF94-3274-D2DF95EB8932}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{074A1B34-A1D9-CF94-3274-D2DF95EB8932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074A1B34-A1D9-CF94-3274-D2DF95EB8932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074A1B34-A1D9-CF94-3274-D2DF95EB8932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074A1B34-A1D9-CF94-3274-D2DF95EB8932}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31EE9D47-DA6F-457E-A94D-41D0299706EE}
+	EndGlobalSection
+EndGlobal

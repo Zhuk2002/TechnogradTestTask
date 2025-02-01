@@ -1,0 +1,20 @@
+﻿<Window x:Class="TechnogradTestTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TechnogradTestTask"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        KeyDown="Window_KeyDown">
+    <Grid>
+        <TextBlock Text="Address" FontSize="14" Margin="32,16,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="AddressTextBox" Text="" Margin="32,40,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="296" Height="20"/>
+        <Button x:Name="LocateButton" Content="Locate" Margin="344,40,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="88" Height="32" Click="LocateButton_Click"/>
+        
+        <TextBlock x:Name="CoordinatesTextBlock" Text="Coordinates: " FontSize="23" Margin="32,104,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" />
+        
+        <TextBlock Text="API-key" FontSize="14" Margin="32,0,0,30" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="24" />
+        <TextBox x:Name="ApiKeyTextBox" Text="" Margin="32,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="440" Height="20" />
+    </Grid>
+</Window>
